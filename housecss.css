@@ -1,0 +1,105 @@
+
+.container-fluid{
+	text-align: center;
+	color: #F8F8F8;
+	font-family: 'Lato', sans-serif;
+	background-color:#339933;
+	padding: 40px 40px;
+	margin-bottom: 30px;
+	}
+	
+
+#homepage h1{
+	font-size: 65px;
+	}
+	
+#homepage {
+    overflow: hidden;
+}    
+
+#aboutpage {
+    overflow: hidden;
+	text-align: center;
+}    
+
+.housephotos{
+	margin-left: 470px;}
+
+.container-fluid img{
+	height: 90px;
+	width: 90px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	}
+
+.coolstuff{
+	margin-left: 355px;
+	}
+
+#navbar{
+	margin-top: 20px 0px 10px 10px;
+	padding: 20px 0px 5px 5px;
+	
+	}
+	
+#slideshow {
+   text-align: center;
+}
+	
+
+.row{
+	text-align: center;
+	}
+
+.manualrow{
+	text-align: center;
+	margin: 70px 100px;
+	padding-bottom: 200px;
+	}
+
+#manual{
+	background-image: url("https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1958454_10203858068881752_5570718052676676343_n.jpg?oh=37546af66c4d3e28f2d80083f65c3c86&oe=55505878");
+		}
+	
+.container2{
+	text-align: justify;
+	text-align: center;
+	margin-top: 20px;
+	}
+	
+.container-fluid2{
+	border: solid;
+	border-color: #339933;
+	background-color: #339933;
+	padding-bottom: 10px;
+	color: #F8F8F8;
+	}
+.Info{
+	margin: 5px 15px 15px 15px;
+	padding: 5px 15px 15px 15px;
+	}
+	
+#calendar{
+	margin-left: 190px;
+	padding-left: 50px;
+	float: center;
+	}
+	
+table{
+	margin-left: 50px;
+	}
+	
+#header{
+	padding: 20px 20px;
+	}
+
+#footer {
+    background-color:white;
+    color:black;
+    clear:both;
+    text-align:center;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	}
+	
+	
