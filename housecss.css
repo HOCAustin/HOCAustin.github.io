@@ -72,14 +72,18 @@
 	color: #F8F8F8;
 	}
 	
+.contactuscontainer{
+	margin-bottom: 300px;
+	}
+
+@-ms-viewport{
+  width: device-width;
+}
+	
 #calendar{
 	margin-left: 190px;
 	padding-left: 50px;
 	float: center;
-	}
-	
-table{
-	margin-left: 50px;
 	}
 	
 #header{
