@@ -38,10 +38,14 @@
 }    
 
 .housephotos{
-	margin-left: 470px;}
+	margin-left: 450px;}
 
 .coolstuff{
 	margin-left: 355px;
+	}
+
+.coolstuff h3{
+	margin-left: 235px;
 	}
 	
 #slideshow {
