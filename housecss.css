@@ -49,11 +49,22 @@ input, textarea {
 	margin-left: 450px;}
 
 .coolstuff{
-	margin-left: 355px;
+	margin-left: 400px;
 	}
 
 .coolstuff h3{
 	margin-left: 235px;
+	}
+
+.coolinfo{
+	margin-left: 450px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	}
+
+.coolinfo h3{
+	margin-left: 150px;
+	margin-top: 50px;
 	}
 	
 #slideshow {
