@@ -4,6 +4,14 @@
 	padding: 20px 0px 5px 5px;
 	}
 	
+img {
+  max-width: 100%
+}
+
+input, textarea {
+  max-width:100%
+}
+	
 .container-fluid{
 	text-align: center;
 	color: #F8F8F8;
