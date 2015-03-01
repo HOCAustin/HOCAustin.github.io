@@ -57,6 +57,7 @@ and (max-device-width : 1024px) {
 
 .row{
 	text-align: center;
+	margin-bottom: 100px;
 	}
 	
 .history{
@@ -64,6 +65,13 @@ and (max-device-width : 1024px) {
 	font-family: 'Lato', sans-serif;
 	font-size: 1px;
 	}
+
+.col-md-4{
+	margin-bottom: 30px;
+	}
+	
+#adjust{
+	margin-top: 2px;}
 	
 #homepage h1{
 	font-size: 65px;
@@ -106,16 +114,7 @@ and (max-device-width : 1024px) {
    text-align: center;
 	}
 
-.manualrow{
-	text-align: center;
-	margin: 70px 100px;
-	padding-bottom: 200px;
-	}
 
-#manual{
-	background-image: url("https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1958454_10203858068881752_5570718052676676343_n.jpg?oh=37546af66c4d3e28f2d80083f65c3c86&oe=55505878");
-	}
-	
 .container2{
 	text-align: justify;
 	text-align: center;
@@ -128,6 +127,7 @@ and (max-device-width : 1024px) {
 	background-color: #339933;
 	padding-bottom: 10px;
 	color: #F8F8F8;
+	margin-top: 40px;
 	}
 	
 .contactuscontainer{
@@ -235,22 +235,6 @@ table tr:hover td {
 	padding: 20px 20px;
 	}
 
-#footer {
-    background-color:white;
-    color:black;
-    clear:both;
-    text-align:center;
-	padding-top: 100px;
-	padding-bottom: 5px;
-	}
-	
-#coolfooter{
-	background-color:white;
-	color: black;
-	text-align: center;
-	margin-top: 170px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	}
+
 	
 	
