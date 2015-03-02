@@ -38,7 +38,13 @@ and (max-device-width : 1024px) {
 /* Styles */  
 }  
 
-	
+.footer{
+	display: inline;
+	height: 50px;
+	width: 50px;
+	margin-left: 500px;
+	}
+
 .container-fluid{
 	text-align: center;
 	color: #F8F8F8;
