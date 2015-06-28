@@ -33,6 +33,23 @@
   ga('send', 'pageview');
 
 	</script>
+	
+		<script>
+		$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+	</script>
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -41,84 +58,39 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
+	
   </head>
   <body>
+  
 	
-	<div id="navbar">
-		<ul>
-		<p><a class="btn btn-success btn-md" href="http://www.houseofcommonstexas.com" role="button">Home</a></p>
-		</ul>
-		<br>		
+	<div class="home">
+	
+			<img src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10425884_10153392150737249_6915167300403253681_n.jpg?oh=f557a238a91cdd83d7e1bbdf3353ef00&oe=5630F5E3">  
+			
+			<div id="homeevents">
+			<a href="#">About</a>
+			</div>
+			<div id="homecontact">
+			<a href="#">Contact</a>
+			
 	</div>
 			
-	<div id="homepage"
-	<div class="container-fluid">
-		<h1>House of Commons</h1>
-			<img src="http://www.clker.com/cliparts/g/Q/b/X/0/T/pine-tree-hi.png"> 
-			<img src="http://www.clker.com/cliparts/g/Q/b/X/0/T/pine-tree-hi.png"> 
-			<p><a class="btn btn-danger btn-lg" href="whatwereabout"  role="button">What We're About</a></p>
-	</div>
-	</div>
-		
-		
-	<div class="container">
-	<div class="row">
 			
-    <div class="col-md-4">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-user fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="members"  role="button">Members</a></p>
-    </div>
+			
+			<ul class="homemore">
+			  <li><a href="#">More</a><span class="arrow">&#9662;</span></a>
+				<ul>
+				  <li><a href="#">Events</a></li>
+				  <li><a href="#">Labor</a></li>
+				  <li><a href="#">Manual</a></li>
+				</ul>
+			  </li>
+ 
+			
 		
-    <div class="col-md-4">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-music fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="events"  role="button">Events</a></p>
-    </div>
-	   
-	   
-    <div class="col-md-4">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="photos" role="button">Photos</a></p>
-    </div>
-	  
-	<div class="container2">
-	<div class="row2">
-	
-	
-	<div class="col-md-4">
-	<div id="adjust">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-book fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="http://www.iccaustin.coop/hoc/manual/HoC-manual%207%20Aug%202013.pdf" role="button">House Manual</a></p>
-		</div>
-    </div>
-	   
-	<div class="col-md-4">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="coolstuff" role="button">Cool Stuff</a></p>
-    </div>
-	   
-	<div class="col-md-4">
-		<span class="fa-stack fa-4x">
-			<i class="fa fa-circle fa-stack-2x"></i>
-			<i class="fa fa-tree fa-stack-1x fa-inverse"></i>
-		</span>
-          <p><a class="btn btn-default" href="contactus" role="button">Contact Us</a></p>
-    </div>
 	</div>
+	</div>
+		
 	
 	
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
